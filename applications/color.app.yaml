@@ -13,7 +13,7 @@ spec:
     name: cfdemo
   project: default
   source:
-    path: ./manifests/color/overlays/dev
+    path: ./manifests/color/
     repoURL: https://github.com/Codefresh-training/codefresh-runtime-applications.git
     targetRevision: main
   syncPolicy:
