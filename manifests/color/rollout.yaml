@@ -17,7 +17,7 @@ spec:
         - name: color
           # blue, green, yellow, purple, red, orange, magenta
           # magenta does not exis so shold fail
-          image: argoproj/rollouts-demo:green
+          image: 'argoproj/rollouts-demo:'
           imagePullPolicy: Always
           ports:
             - name: http
