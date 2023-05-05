@@ -17,7 +17,7 @@ spec:
         - name: color
           # blue, green, yellow, purple, red, orange, magenta
           # magenta does not exis so should fail
-          image: argoproj/rollouts-demo:yellow
+          image: cftraining/rollouts-demo:795799b
           imagePullPolicy: Always
           ports:
             - name: http
