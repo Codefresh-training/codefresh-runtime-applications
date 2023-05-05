@@ -16,7 +16,7 @@ spec:
       containers:
         - name: color
           # blue, green, yellow, purple, red, orange, magenta
-          # magenta does not exis so shold fail
+          # magenta does not exis so should fail
           image: argoproj/rollouts-demo:yellow
           imagePullPolicy: Always
           ports:
