@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: color
+  name: color-dev
   namespace: codefresh-hosted
   labels:
     app: color
@@ -9,11 +9,11 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: demo
+    namespace: dev
     server: https://C66A3621B224BDAD6AD99D87BEFEA3D6.gr7.us-east-1.eks.amazonaws.com
   project: default
   source:
-    path: ./manifests/color/
+    path: ./manifests/color/dev
     repoURL: https://github.com/Codefresh-training/codefresh-runtime-applications.git
     targetRevision: main
   syncPolicy:
