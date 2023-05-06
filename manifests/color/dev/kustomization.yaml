@@ -5,5 +5,5 @@ resources:
 # ß- ingress.yaml
 #- ingress-preview.yaml
 - rollout.yaml
-#- deployment.yaml
+- ns.yaml
 namespace: dev
