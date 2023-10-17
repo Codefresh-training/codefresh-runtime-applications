@@ -10,7 +10,7 @@ metadata:
 spec:
   destination:
     namespace: dev
-    server: https://C66A3621B224BDAD6AD99D87BEFEA3D6.gr7.us-east-1.eks.amazonaws.com
+    name: cfdemo
   project: default
   source:
     path: ./manifests/color/dev
